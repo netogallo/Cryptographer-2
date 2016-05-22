@@ -1,0 +1,3 @@
+[submodule "externalSources/dropbox"]
+	path = externalSources/dropbox
+	url = https://github.com/JamesMaroney/dropbox-js.git

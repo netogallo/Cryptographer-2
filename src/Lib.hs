@@ -1,6 +1,8 @@
+{-# LANGUAGE JavaScriptFFI, EmptyDataDecls #-}
+
 module Lib
-    ( someFunc
+    ( fun
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+foreign import javascript unsafe "func();" fun :: IO ()
+
